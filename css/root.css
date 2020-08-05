@@ -1,0 +1,12 @@
+:root {
+  /*COLOR*/
+  --primary-color: #48cfad;
+  --black-color: rgb(20,20,20);
+  --dark-black-color: #111;
+  --white-color: #FFF;
+
+  /*FONTS*/
+  --text-normal: 400;
+  --text-medium: 500;
+  --text-bold: 700;
+}

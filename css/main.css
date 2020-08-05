@@ -4,7 +4,7 @@ body, html {
 }
 body{
   height: 100vh;
-  background-color: #222;
+  background-color: var(--black-color);
   background-image: url('../assets/images/Cover.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@ header {
 .social-section{
   width: 100%;
   box-sizing: border-box;
-  background-color: #48cfad;
+  background-color: var(--primary-color);
   min-height: 70px;
   padding: 0 30px;
   display: flex;
@@ -40,7 +40,7 @@ header {
   text-decoration: none;
 }
 .social-section a span {
-  color: #FFF;
+  color: var(--white-color);
 }
 .social-section a span::before{
   margin-left: 0;
@@ -72,7 +72,7 @@ nav section{
 }
 .about-container a {
   font-size: 25px;
-  color: #FFF;
+  color: var(--white-color);
 }
 
 /*MAIN SECTION*/
@@ -84,7 +84,7 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin: 55px auto 30px;
-  color: #FFF;
+  color: var(--white-color);
 }
 .action{
   width: 100%;
@@ -94,10 +94,10 @@ h1 {
 }
 .action a {
   display: inline-block;
-  background-color: #48cfad;
+  background-color: var(--primary-color);
   padding: 15px 18px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--text-bold);
   text-decoration: none;
-  color: #111;
+  color: var(--dark-black-color);
 }
